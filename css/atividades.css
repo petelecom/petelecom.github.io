@@ -2,7 +2,7 @@
 
 .one{
     height: 50vh;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    /*clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
      /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
 }
 .two{
@@ -38,7 +38,7 @@
 /* Carrousel */
 
 .slide-part{
-    width: 80%;
+    width: 30%;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -136,11 +136,11 @@
         
     .one{
         height: 50vh;
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        /*clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
         /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
     }
     .two{
-        height: 70vh;
+        height: 60vh;
     }
     .three{
         height: 210vh;
@@ -241,10 +241,10 @@
 
     .one{
         height: 60vh;
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
+        /*clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
     }
     .two{
-        height: 120vh;
+        height: 130vh;
     }
     .three{
         margin-top: -10%;
