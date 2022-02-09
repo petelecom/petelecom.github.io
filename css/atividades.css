@@ -1,0 +1,368 @@
+/* divisões da tela */
+
+.one{
+    height: 50vh;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+     /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
+}
+.two{
+    height: 70vh;
+}
+.three{
+    height: 220vh;
+}
+.four{
+    height: 220vh;
+	margin-top: -40%;
+}
+.five{
+    height: 220vh;
+	margin-top: -39%;
+}
+.six{
+    clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
+}
+
+
+/* Primeira Parte */
+
+#titulo_atividades{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+
+/* Carrousel */
+
+.slide-part{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+}
+
+.carousel-imgs{
+    text-align: center;
+}
+
+
+.carousel-indicators li{
+    background-color: #2062d4;
+}
+
+.carousel-control-prev i{
+    font-size: 30px;
+}
+
+.carousel-control-next i{
+    font-size: 30px;
+}
+
+
+
+
+/* terceira parte */
+
+.minicursos{
+    height: 100%;
+}
+
+.cardes{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 auto;
+	height: 90%;
+    padding-top: 0;
+}
+
+.cardes img{
+	max-width: 200px;
+    height: auto;
+}
+
+
+.texto_mini{
+    display: block;
+    text-align: center;
+    color: #FFF;
+    font-size: 2em;
+    font-weight: 500;
+    padding-top: 30.7%; 
+}
+
+/* cardes minicursos */
+
+.flip-card-inner{
+    border: none;
+    display: flex;
+	flex-direction: column;
+    align-items: center;
+	color: white;
+    text-align: center;
+    height: 35%;
+    padding-top: 5%;
+}
+
+.back-content {
+    color: #FFF; 
+    font-size: 1em;
+    padding: 2%;
+}
+
+.back{
+    border: #FFF dashed 4px;
+    border-radius: 30px;
+    width: 75%; 
+    height: 70%;
+    margin-top: 0%;
+}
+
+.imagem_terceira_parte_atividades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+
+
+@media screen and (min-width: 350px){
+        
+    .one{
+        height: 50vh;
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+        /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
+    }
+    .two{
+        height: 70vh;
+    }
+    .three{
+        height: 210vh;
+    }
+    .four{
+        height: 210vh;
+        margin-top: -46%;
+        clip-path: polygon(0 10%, 100% 0, 100% 97%, 0 90%);
+    }
+    .five{
+        height: 210vh;
+        margin-top: -45%;
+    }
+    .six{
+        clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .cardes{
+        height: 92.8%;
+    }
+
+    .texto_mini{
+        padding-top: 35%;
+    }
+
+}
+
+
+/* Para Tablets */
+
+@media screen and (min-width: 760px){
+
+    .three{
+        height: 140vh;
+    }
+    .four{
+        height: 140vh;
+
+    }
+    .five{
+        height: 140vh;
+    }
+
+    .six{
+        margin-top: -22%;
+    }
+
+    .slide-part {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90%;
+        margin-top: 5%;
+    }
+
+
+    .cardes{
+        height: 85%;
+    }
+
+    .back{
+        height: 30%;
+    }
+
+    .texto_mini{
+        padding-top: 22%;
+    }
+
+}
+
+@media screen and (min-width: 1023px){
+
+    #titulo_atividades{
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        font-size: 3em;
+        font-weight: 500;
+    }
+
+    .cardes img{
+        max-width: 250px;
+        height: auto;
+    }
+
+    .minicursos{
+        font-size: 1.5em;
+    }
+
+}
+
+
+/* Para Desktop */
+
+@media screen and (min-width: 1280px){
+
+    .one{
+        height: 60vh;
+        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
+    }
+    .two{
+        height: 120vh;
+    }
+    .three{
+        margin-top: -10%;
+        height: 100vh;
+    }
+    .four{
+        margin-top: -10%;
+        height: 110vh;
+        width: 100%;
+        background-color: #2685BC;
+        clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
+    }
+    .five{
+        margin-top: -10%;
+        height: 110vh;
+        width: 100%;
+        background-color: #20C1D4;
+        clip-path: polygon(0 0, 100% 10%, 100% 90%, 0 100%);
+    }
+    .six{
+        clip-path: polygon(0 26%, 100% 0, 100% 100%, 0 100%);
+        margin-top: -10%;
+    }
+
+    #primeira_parte{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 5%;
+    }
+
+    #titulo_atividades{
+        width: 100%;
+        text-align: center;
+        color: #FFF;
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    /* Carrousel */
+
+    .slide-part{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 80%;
+        margin-top: 10%;
+    }
+
+    .img-fluid{
+        max-width: 50%;
+        height: auto;
+    }
+   
+    .carousel-control-prev i, .carousel-control-next i{
+        font-size: 30px;
+        color: #2062d4;
+    }
+
+    /* terceira parte */
+
+    .minicursos{
+        font-size: 1em;
+    }
+
+    .texto_mini{
+        display: block;
+        text-align: center;
+        color: #FFF;
+        font-size: 2.5em;
+        font-weight: 500;
+        padding-top: 8%; 
+    }
+
+    .cardes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+        height: 60%;
+        padding-top: 0;
+    }
+
+    .cardes img{
+        max-width: 200px;
+        height: auto;
+    }
+
+
+    .flip-card-inner{
+        border: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        text-align: center;
+        height: 80%;
+        padding-top: 0%;
+    }
+
+    .back{
+        border: #FFF dashed 4px;
+        border-radius: 30px;
+        width: 30%; 
+        height: 40%;
+        margin-top: 2%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
