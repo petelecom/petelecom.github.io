@@ -18,9 +18,9 @@ body {
 
 /* Main Section */
 #main {
-	background: url("./img/background.jpg");
+	background: url("./img/background.png");
 	background-size: cover;
-	height: 100vh;
+	height: 110vh;
 }
 .header-main {
 	margin-top: 100px;
@@ -40,7 +40,8 @@ body {
 
 .antena{
 	margin-top: 10px;
-	width: 50vh;
+	width: 40vh;
+	margin-left: 30vh;
 }
 
 .titulo{
