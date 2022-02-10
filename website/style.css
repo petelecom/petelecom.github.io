@@ -9,23 +9,37 @@ body {
 }
 
 /* Navigation */
-.logo {
-	margin-left: -10px;
-}
-.nav-item {
-	margin: 0 20px;
-}
 
+.nav-item {
+	margin: -5vh 20px 20px 0;
+}
+.logo {
+	margin: -5vh 0  20px 8%;
+	cursor: pointer;
+	align-items: center;
+}
+#menu{
+	height: 10%;
+	margin: 0 0 0 0;
+	z-index: 20;
+	width: 100%;
+	background-color: #1f73ff;
+	padding: 0;
+	position: fixed;
+	align-items: center;
+}
 /* Main Section */
+
 #main {
 	background: url("./img/background.png");
 	background-size: cover;
-	height: 110vh;
+	height: 100vh;
 }
 .header-main {
 	margin-top: 100px;
 }
 .header-info {
+	margin-top: 30%;
 	font-weight: 900;
 	font-size: 7vh;
 	color: rgb(255, 255, 255);
@@ -39,20 +53,25 @@ body {
 }
 
 .antena{
-	margin-top: 10px;
+	margin-top: 30%;
 	width: 40vh;
 	margin-left: 30vh;
 }
 
 .titulo{
+	margin: 0;
 	text-align: center;
-	margin-top:  20px;
 	font-weight: 500;
-	font-size: 40px
+	font-size: 40px;
 }
 
 /* Overview */
-
+#overview{
+	height: 100%;
+}
+.sobre-title{
+	margin-top: 5%;
+}
 .info-width {
 	width: 60%;
 	font-size: 1.3rem;
@@ -74,15 +93,18 @@ body {
 
 /* Testimonials */
 #testimonials {
-	background-color: #0335d8;
-	margin-top: 100px;
-	padding: 100px 0;
+	background-color: #410ada;
 }
 .carousel-item {
-	padding: 7% 15%;
+	width: 100vw;
+	height: 78vh;
+	padding: 0 20% 0 20%;
 }
 .carousel-item h3 {
+	text-align: center;
 	font-size: 2.5rem;
+	height: 90%;
+	background-color: aqua;
 }
 
 

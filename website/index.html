@@ -18,48 +18,50 @@
 </head>
 <body>
   <!-- Main Section -->
-  <section id="main">
+  
 
-    <div class="container">
+    <!--<div class="container">-->
       <!-- Navbar Here -->
-      <nav class="navbar navbar-expand-md navbar-dark bg-transparent pt-5">
-        <img src="./img/LogoEscrita.png" class="logo" width="200" alt="logo">
+      <section id = "menu">
+        <nav  class="navbar navbar-expand-xl navbar-dark pt-5"> 
+          <img onclick="location.href = '#main'" src="./img/LogoEscrita.png" class="logo" width="200" alt="logo">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#main" class="nav-link text-white">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" data-toggle="dropdown">Atividades</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Minicursos</a>
+                  <a class="dropdown-item" href="#">Eventos</a>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" data-toggle="dropdown">Documentos</a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Planejamentos</a>
+                  <a class="dropdown-item" href="#">Relatório de atividades</a>
+                  <a class="dropdown-item" href="#">Certificados</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a href="#overview" class="nav-link text-white">Sobre</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a href="#main" class="nav-link text-white">Home</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" data-toggle="dropdown">Atividades</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Minicursos</a>
-                <a class="dropdown-item" href="#">Eventos</a>
-              </div>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" data-toggle="dropdown">Documentos</a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Planejamentos</a>
-                <a class="dropdown-item" href="#">Relatório de atividades</a>
-                <a class="dropdown-item" href="#">Certificados</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a href="#pricing" class="nav-link text-white">Sobre</a>
-            </li>
-          </ul>
-        </div>
-
-      </nav>
-    </div>
-
-    <div class="container">
-      <div class="row header-main">
+      </section>
+        
+    <!-- </div> -->
+    <section id="main">
+    <div class="container" style="padding-top: 0;">
+      <div class="row header-main" style="padding-top:0; margin: 0; ">
 
         <div class="col-md-6">
           <h1 class="header-info">Programa de Educação Tutorial Engenharia Eletrônica e de Telecomunicações</h1>
@@ -76,40 +78,12 @@
 
   </section>
 
-  <!--Atividades -->
-  <section id="overview">
-    <h2 class="titulo">Atividades</h2>
 
-    <div class="container-fluid">
-      <div class="row overview-row">
 
-        <div class="col-md-4 text-center">
-          <i class="fas fa-book overview-icon"></i>
-          <h3 class="overview-header">Ensino</h3>
-          <p class="info-width mx-auto">A área de ensino é focada em ensinar e transmitir conhecimento através de atividades, como minicursos e palestras.</p>
-        </div>
-
-        <div class="col-md-4 text-center">
-          <i class="fa fa-search overview-icon"></i>
-          <h3 class="overview-header">Pesquisa</h3>
-          <p class="info-width mx-auto">A área de pesquisa é focada em promover o desenvolvimento do senso crítico do aluno para áreas científicas.</p>
-        </div>
-
-        <div class="col-md-4 text-center">
-          <i class="fa fa-retweet overview-icon"></i>
-          <h3 class="overview-header">Extensão</h3>
-          <p class="info-width mx-auto">A área de extensão é focada em promover atividades beneficas para comunidade interna e externa.</p>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- Avaliação -->
+  <!-- Atividades -->
   <section id="testimonials">
-    <h2 class="text-center text-white section-title">Avaliações</h2>
-
     <div class="container-fluid">
+      <h2 class="text-center text-white section-title">Atividades</h2>
       <div class="row">
 
         <!-- Carousel Here -->
@@ -151,8 +125,8 @@
   </section>
 
   <!-- preço-->
-  <section id="pricing">
-    <h2 class="text-center section-title pricing-title">Preço</h2>
+  <section id="minicursos">
+    <h2 class="text-center section-title pricing-title">Minicursos</h2>
 
     <div class="container">
       <div class="row">
@@ -194,6 +168,35 @@
     </div>
   </section>
 
+  <!--Sobre -->
+  <section id="overview">
+    <h2 class="text-center section-title sobre-title">Sobre</h2>
+
+    <div class="container-fluid">
+      <div class="row overview-row">
+
+        <div class="col-md-4 text-center">
+          <i class="fas fa-book overview-icon"></i>
+          <h3 class="overview-header">Ensino</h3>
+          <p class="info-width mx-auto">A área de ensino é focada em ensinar e transmitir conhecimento através de atividades, como minicursos e palestras.</p>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <i class="fa fa-search overview-icon"></i>
+          <h3 class="overview-header">Pesquisa</h3>
+          <p class="info-width mx-auto">A área de pesquisa é focada em promover o desenvolvimento do senso crítico do aluno para áreas científicas.</p>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <i class="fa fa-retweet overview-icon"></i>
+          <h3 class="overview-header">Extensão</h3>
+          <p class="info-width mx-auto">A área de extensão é focada em promover atividades beneficas para comunidade interna e externa.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
   <!-- Call to Action Section -->
   <section id="cta">
     <h1 class="text-center cta-text">Internet of things</h1>
@@ -214,5 +217,10 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  <script>
+    let menu = document.getElementById("navbar");
+    //menu.style.cssText += "position: fixed;";
+
+  </script>
 </body>
 </html>
