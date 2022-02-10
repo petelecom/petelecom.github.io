@@ -5,7 +5,7 @@
   <!-- Responsive Meta Tag -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Guilherme</title>
+  <title>PET Telecom</title>
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,900" rel="stylesheet">
   <!-- Adding Font Awesome -->
@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- Adding CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://kit.fontawesome.com/a751b27ad8.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Main Section -->
@@ -22,7 +23,7 @@
     <div class="container">
       <!-- Navbar Here -->
       <nav class="navbar navbar-expand-md navbar-dark bg-transparent pt-5">
-        <a href="#" class="navbar-brand logo">Guilherme app</a>
+        <img src="./img/LogoEscrita.png" class="logo" width="200" alt="logo">
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -33,14 +34,23 @@
             <li class="nav-item">
               <a href="#main" class="nav-link text-white">Home</a>
             </li>
-            <li class="nav-item">
-              <a href="#overview" class="nav-link text-white">Sobre</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" data-toggle="dropdown">Atividades</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Minicursos</a>
+                <a class="dropdown-item" href="#">Eventos</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" data-toggle="dropdown">Documentos</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Planejamentos</a>
+                <a class="dropdown-item" href="#">Relatório de atividades</a>
+                <a class="dropdown-item" href="#">Certificados</a>
+              </div>
             </li>
             <li class="nav-item">
-              <a href="#testimonials" class="nav-link text-white">Avaliações</a>
-            </li>
-            <li class="nav-item">
-              <a href="#pricing" class="nav-link text-white">Preço</a>
+              <a href="#pricing" class="nav-link text-white">Sobre</a>
             </li>
           </ul>
         </div>
@@ -52,13 +62,13 @@
       <div class="row header-main">
 
         <div class="col-md-6">
-          <h1 class="header-info">Idealização app Internet of things</h1>
-          <button class="btn btn-dark btn-lg btn-space"><i class="fab fa-google-play"></i> Download</button>
-          <button class="btn btn-outline-light btn-lg btn-space"><i class="fab fa-apple"></i> Download</button>
+          <h1 class="header-info">Programa de Educação Tutorial Engenharia Eletrônica e de Telecomunicações</h1>
+         <!-- <button class="btn btn-dark btn-lg btn-space"><i class="fab fa-google-play"></i> Download</button>
+          <button class="btn btn-outline-light btn-lg btn-space"><i class="fab fa-apple"></i> Download</button>-->
         </div>
 
         <div class="col-md-6 text-center">
-          <img src="./img/iphone.png" class="ml-5 iphone" width="300" alt="iPhone Image">
+          <img src="./img/AntenaCinzaBranco.png" class="antena" alt="AntenaCinzaBranco">
         </div>
 
       </div>
@@ -66,36 +76,36 @@
 
   </section>
 
-  <!--sobre -->
+  <!--Atividades -->
   <section id="overview">
-    <h2 class="text-center section-title">Sobre</h2>
+    <h2 class="titulo">Atividades</h2>
 
     <div class="container-fluid">
       <div class="row overview-row">
 
         <div class="col-md-4 text-center">
-          <i class="far fa-object-group overview-icon"></i>
-          <h3 class="overview-header">Design</h3>
-          <p class="info-width mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <i class="fas fa-book overview-icon"></i>
+          <h3 class="overview-header">Ensino</h3>
+          <p class="info-width mx-auto">A área de ensino é focada em ensinar e transmitir conhecimento através de atividades, como minicursos e palestras.</p>
         </div>
 
         <div class="col-md-4 text-center">
-          <i class="fas fa-cogs overview-icon"></i>
-          <h3 class="overview-header">Customizável</h3>
-          <p class="info-width mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <i class="fa fa-search overview-icon"></i>
+          <h3 class="overview-header">Pesquisa</h3>
+          <p class="info-width mx-auto">A área de pesquisa é focada em promover o desenvolvimento do senso crítico do aluno para áreas científicas.</p>
         </div>
 
         <div class="col-md-4 text-center">
-          <i class="fas fa-phone overview-icon"></i>
-          <h3 class="overview-header">Suporte</h3>
-          <p class="info-width mx-auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <i class="fa fa-retweet overview-icon"></i>
+          <h3 class="overview-header">Extensão</h3>
+          <p class="info-width mx-auto">A área de extensão é focada em promover atividades beneficas para comunidade interna e externa.</p>
         </div>
 
       </div>
     </div>
   </section>
 
-  <!-- Avaliaçãp -->
+  <!-- Avaliação -->
   <section id="testimonials">
     <h2 class="text-center text-white section-title">Avaliações</h2>
 
