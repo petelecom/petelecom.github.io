@@ -14,7 +14,6 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
   <!-- Adding CSS -->
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="https://kit.fontawesome.com/a751b27ad8.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!-- Main Section -->
@@ -22,7 +21,7 @@
 
     <!--<div class="container">-->
       <!-- Navbar Here -->
-      <section id = "menu">
+      <section id = "main">
         <nav  class="navbar navbar-expand-xl navbar-dark pt-5"> 
           <img onclick="location.href = '#main'" src="./img/LogoEscrita.png" class="logo" width="200" alt="logo">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="toggle navigation">
@@ -37,7 +36,7 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle  text-white" href="#" id="navbarDropdown" data-toggle="dropdown">Atividades</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Minicursos</a>
+                  <a class="dropdown-item" href="#minicursos">Minicursos</a>
                   <a class="dropdown-item" href="#">Eventos</a>
                 </div>
               </li>
@@ -50,16 +49,11 @@
                 </div>
               </li>
               <li class="nav-item">
-                <a href="#overview" class="nav-link text-white">Sobre</a>
+                <a href="sobre.html" class="nav-link text-white">Sobre</a>
               </li>
             </ul>
           </div>
         </nav>
-
-      </section>
-        
-    <!-- </div> -->
-    <section id="main">
     <div class="container" style="padding-top: 0;">
       <div class="row header-main" style="padding-top:0; margin: 0; ">
 
@@ -82,38 +76,33 @@
 
   <!-- Atividades -->
   <section id="testimonials">
+    <h2 class="text-center section-title">O que acontece aqui?</h2>
     <div class="container-fluid">
-      <h2 class="text-center text-white section-title">Atividades</h2>
       <div class="row">
 
         <!-- Carousel Here -->
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-          <!-- The slideshow -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
           <div class="carousel-inner">
-
             <div class="carousel-item active">
-              <h3 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-              <p class="text-white">-- Guilherme</p>
+              <img class="d-block w-100" src="img/resultadoPS.png" alt="First slide">
             </div>
-
             <div class="carousel-item">
-              <h3 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </h3>
-              <p class="text-white">-- João</p>
+              <img class="d-block w-100" src="https://drive.google.com/uc?export=view&id=1tEN85Pl7UN9CLMy0er7vsQC6ZMkwBKCU" alt="Second slide">
             </div>
-
             <div class="carousel-item">
-              <h3 class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
-              <p class="text-white">-- Gabriel</p>
+              <img class="d-block w-100" src="img/resultadoPS.png" alt="Third slide">
             </div>
-
           </div>
-
-          <!-- Left and right controls of Carousel -->
-          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Previous</span>
           </a>
-          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
@@ -126,18 +115,17 @@
 
   <!-- preço-->
   <section id="minicursos">
-    <h2 class="text-center section-title pricing-title">Minicursos</h2>
+    <h2 class="text-center section-title pricing-title" style="margin-top: 7%;">Minicursos</h2>
 
     <div class="container">
-      <div class="row">
+      <div class="row justify-content-center">
 
         <div class="col-md-4">
           <div class="card">
             <div class="card-body text-center">
-              <h2 class="card-title text-muted">Plano 1</h2>
-              <h1 class="card-title pricing-text">R$19.99/mês</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet</p>
-              <button class="btn btn-dark btn-block">Sign Up</button>
+              <!-- <h2 class="card-title text-muted">Minicurso Octave</h2> -->
+              <img src="img/octave.jpeg" alt="logo_octave" width="100%" height="100%">
+              <button onclick=" window.open('https://pet-telecom.coursify.me/courses/minicurso-octave','_blank')" class="btn btn-dark btn-block" target = "_blank">Inscreva-se</button>
             </div>
           </div>
         </div>
@@ -145,10 +133,9 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body text-center">
-              <h2 class="card-title text-muted">Plano 2</h2>
-              <h1 class="card-title pricing-text">R$29.99/mês</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet</p>
-              <button class="btn btn-dark btn-block">Sign Up</button>
+              <!-- <h2 class="card-title text-muted">Minicurso Octave</h2> -->
+              <img src="img/octave.jpeg" alt="logo_octave" width="100%" height="100%">
+              <button onclick=" window.open('https://pet-telecom.coursify.me/courses/minicurso-octave','_blank')" class="btn btn-dark btn-block" target = "_blank">Inscreva-se</button>
             </div>
           </div>
         </div>
@@ -156,10 +143,19 @@
         <div class="col-md-4">
           <div class="card">
             <div class="card-body text-center">
-              <h2 class="card-title text-muted">Plano 3</h2>
-              <h1 class="card-title pricing-text">R$39.99/mês</h1>
-              <p class="card-text">Lorem ipsum dolor sit amet</p>
-              <button class="btn btn-dark btn-block">Sign Up</button>
+              <!-- <h2 class="card-title text-muted">Minicurso Octave</h2> -->
+              <img src="img/octave.jpeg" alt="logo_octave" width="100%" height="100%">
+              <button onclick=" window.open('https://pet-telecom.coursify.me/courses/minicurso-octave','_blank')" class="btn btn-dark btn-block" target = "_blank">Inscreva-se</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body text-center">
+              <!-- <h2 class="card-title text-muted">Minicurso Octave</h2> -->
+              <img src="img/octave.jpeg" alt="logo_octave" width="100%" height="100%">
+              <button onclick=" window.open('https://pet-telecom.coursify.me/courses/minicurso-octave','_blank')" class="btn btn-dark btn-block" target = "_blank">Inscreva-se</button>
             </div>
           </div>
         </div>
@@ -170,7 +166,7 @@
 
   <!--Sobre -->
   <section id="overview">
-    <h2 class="text-center section-title sobre-title">Sobre</h2>
+    <h2 class="text-center section-title sobre-title">Pilares do PET</h2>
 
     <div class="container-fluid">
       <div class="row overview-row">
@@ -195,32 +191,53 @@
 
       </div>
     </div>
-  </section>
-
-  <!-- Call to Action Section -->
-  <section id="cta">
-    <h1 class="text-center cta-text">Internet of things</h1>
-    <div class="btn-section text-center">
-      <button class="btn btn-dark btn-lg btn-space"><i class="fab fa-google-play"></i> Download</button>
-      <button class="btn btn-outline-light btn-lg btn-space"><i class="fab fa-apple"></i> Download</button>
-    </div>
-  </section>
+  
+    </section>
 
 
   <section id="footer" class="d-flex justify-content-center">
-    <i class="fab fa-facebook-f footer-icon"></i>
-    <i class="fab fa-instagram footer-icon"></i>
-    <i class="fab fa-twitter footer-icon"></i>
-  </section>
+    <div class="container rodape">
+      <div class="row">
 
+        <div class="col-md-4 text-center">
+          <i onclick=" window.open('https://goo.gl/maps/Lgv8ugSKPBS1HCKn8','_blank')" class="fas fa-map-marker-alt footer-icon" style="cursor: pointer;"></i>
+          <p onclick=" window.open('https://goo.gl/maps/Lgv8ugSKPBS1HCKn8','_blank')" class="info-width mx-auto text-white" style="font-size: 12pt;cursor: pointer;">Av.João Naves de Ávila, 2121 - Santa Mônica, Uberlândia - MG - Sala 1N04</p>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <i onclick=" window.open('https://www.instagram.com/petelecom_ufu/','_blank')" class="fab fa-instagram footer-icon" style="cursor: pointer;"></i>
+          <p onclick=" window.open('https://www.instagram.com/petelecom_ufu/','_blank')" class="info-width mx-auto text-white " style="font-size: 12pt;cursor: pointer;">@petelecom_ufu</p>
+        </div>
+        
+        <div class="col-md-4 text-center">
+          <i onclick=" window.open('mailto:petelecomufu@gmail.com','_blank')" class="fab fa fa-envelope-open footer-icon" style="cursor: pointer;"></i>
+          <p onclick=" window.open('mailto:petelecomufu@gmail.com','_blank')" class="info-width mx-auto text-white " style="font-size: 12pt;cursor: pointer; ">petelecomufu@gmail.com</p>
+        </div>
+        
+      </div>
+  </div>
+  </section>
+ 
+  
   <!-- Bootstrap's Javascript -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
   <script>
-    let menu = document.getElementById("navbar");
-    //menu.style.cssText += "position: fixed;";
-
+    var sobre_f = function(id){
+      let element = document.getElementById(id);
+      let base = document.getElementById('menu');
+      let offset = base.offsetHeight;
+      let bodyRect = document.body.getBoundingClientRect().top;
+      let elementRect = element.getBoundingClientRect().top;
+      let elementPosition = elementRect - bodyRect;
+      let offsetPosition = elementPosition - offset;
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+   
   </script>
 </body>
 </html>

@@ -1,0 +1,103 @@
+/* divisões da tela */
+.one{
+    height: 60vh;
+    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
+    background-color: #2685BC; 
+}
+.two{
+    height: 90vh;
+}
+.six{
+    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+}
+
+/* primeira parte */
+
+.cabecalho{
+    background-color:  #2685BC;
+}
+
+.menu-diferente{
+	background-color: #fff;
+}
+
+.logo-relatorio{
+	width: 65px; 
+	height: 65px; 
+	float: left; 
+	background: url(../imagens/AntenaLogoR.png) center center/70px no-repeat; 
+	font-size: 0px;
+}
+
+.bot-menu-relatorio{
+	font-size: 1em;
+	width: 56px; 
+	height: 56px; 
+	float: right;
+	text-decoration-color: #fff; 
+	text-align: center; 
+	color: #2685BC; 
+	border-radius: 56px; 
+	cursor: pointer; 
+	background: transparent;
+	border: 1px solid #2685BC;
+	margin: 2%;
+
+}
+
+#titulo_relatorio{
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+
+.texto_rela{
+    display: block;
+    text-align: center;
+    color:#2685BC;
+    font-size: 2em;
+    font-weight: 500;
+    padding-top: 30.7%; 
+}
+
+/* mobile first */
+
+/* telas pequenas: celulares */
+@media screen and (min-width: 480px){
+	.logo-relatorio{
+		width: 215px; 
+		background: url(../imagens/LogoEscritaR.png) center center/215px no-repeat;
+	}
+	.menu-diferente ul li a, .mud{
+		color: #2685BC;
+		border-bottom: none;
+	} 
+	.texto_rela{
+        padding-top: 35%;
+    }
+}
+
+@media screen and (min-width: 760px){
+	.texto_rela{
+		padding-top: 22%;
+	}
+}
+
+@media screen and (min-width: 1280px){
+	#primeira_parte{
+    	padding-bottom: 5%;
+	}
+	.texto_rela{
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        font-weight: 500;
+        padding-top: 8%; 
+    }
+
+}
+
+

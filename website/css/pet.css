@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/* DIVISÕES DA TELA */
+
+.two{
+	margin-top: 0;
+	height: 140vh;
+	width: 100%;
+	background-color: #fff;
+}
+
+.three{
+	margin-top: 30%;
+	height: 70vh;
+	width: 100%;
+	background-color: rgb(37, 0, 248);
+}
+
+.four{
+	margin-top: 0;
+	height: 70vh;
+	width: 100%;
+	background-color: rgb(17, 128, 255);
+}
+
+.five{
+	margin-top: 0;
+	height: 70vh;
+	width: 100%;
+	background-color: rgb(37, 0, 248);
+
+}

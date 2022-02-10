@@ -1,0 +1,55 @@
+
+.nome-atividade{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 80%;
+	margin: 0 auto;
+    height: 100%;
+}
+
+.nome-atividade img{
+	max-width: 300px;
+    height: auto;
+    margin-top: 10%;
+}
+
+
+.texto_atividades_especificas{
+	padding-top: 10%;
+	color: white;
+    text-align: left;
+    margin-bottom: 10%;
+}
+.two{
+        height: 90vh;
+    }
+.three{
+    height: 75vh;
+}
+.six{
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0 100%);
+    margin-top: -10%;
+}
+/* telas grandes widescreens 
+@media screen and (min-width: 1280px){
+
+    
+    .nome-atividade img{
+        max-width: 250px;
+    }
+
+	.nome-atividade{
+		flex-direction: row;
+		justify-content: space-between;
+		padding-bottom: 5%;
+	}
+
+	.nome-atividade .texto_atividades_especificas{
+		text-align: left;
+        padding: 8%;
+        padding-right: 0;
+	}
+
+}

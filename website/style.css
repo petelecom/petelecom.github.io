@@ -1,10 +1,17 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1.2rem;
+	padding: 0;
+	margin: 0;
 }
 
 /* For all section's title */
 .section-title {
+	margin: -1% 0 1% 0;
 	font-size: 3rem;
 }
 
@@ -18,7 +25,7 @@ body {
 	cursor: pointer;
 	align-items: center;
 }
-#menu{
+/* #menu{
 	height: 12%;
 	margin: 0 0 0 0;
 	z-index: 20;
@@ -28,7 +35,7 @@ body {
 	position: fixed;
 	align-items: center;
 	opacity: initial;
-}
+} */
 /* Main Section */
 
 #main {
@@ -40,7 +47,7 @@ body {
 	margin-top: 100px;
 }
 .header-info {
-	margin-top: 30%;
+	margin-top: 10%;
 	font-weight: 900;
 	font-size: 7vh;
 	color: rgb(255, 255, 255);
@@ -54,7 +61,7 @@ body {
 }
 
 .antena{
-	margin-top: 30%;
+	margin-top: 10%;
 	width: 40vh;
 	margin-left: 30vh;
 }
@@ -94,20 +101,18 @@ body {
 
 /* Testimonials */
 #testimonials {
-	background-color: #410ada;
+	background-color: #ffffff;
 }
 .carousel-item {
 	width: 100vw;
-	height: 78vh;
-	padding: 0 20% 0 20%;
-}
-.carousel-item h3 {
-	text-align: center;
-	font-size: 2.5rem;
-	height: 90%;
-	background-color: aqua;
+	height: 85vh;
+	padding: 0 30% 0 30%;
 }
 
+
+.carousel-control-next,.carousel-control-prev, .carousel-indicators{
+    filter: invert(100%);
+} 
 
 /* Pricing */
 #pricing {
@@ -135,6 +140,9 @@ body {
 	font-size: 1.5rem;
 }
 
+.col-md-4 {
+	margin-bottom: 25px;
+}
 /* Call To Action */
 #cta {
 	background-color: #5a34fc;
@@ -148,14 +156,27 @@ body {
 
 /* Footer */
 #footer {
-	height: 200px;
+	height: 250px;
+	width: 100%;
+	background-color: #0aa5ec;
+	padding-top: 20px;
+	padding-bottom: 0;
+	margin: 0 0 0 0;
 }
 .footer-icon {
 	font-size: 2rem;
-	color: #5a34fc;
+	color: #ffffff;
 	padding: 5% 3%;
 }
+.rodape{
+	width: 100%;
+	height: 100%;
+}
 
+.contact{
+	/* margin: 0 0 0 40%; */
+	
+}
 /* Media Queries */
 @media only screen and (max-width: 768px) {
 
@@ -176,3 +197,7 @@ body {
 	}
 
 }
+
+
+/* SOBRE */
+
