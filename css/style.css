@@ -39,7 +39,7 @@ body {
 /* Main Section */
 
 #main {
-	background: url("./img/background.png");
+	background: url("../img/background.png");
 	background-size: cover;
 	height: 100vh;
 }

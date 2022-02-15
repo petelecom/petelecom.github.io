@@ -1,14 +1,9 @@
 
-.one{
-    height: 50vh;
-    clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
-    background-color: #20C1D4; 
-}
 .two{
-    height: 320vh;
+    height: 150vh;
 }
 .three{
-    height: 230vh;
+    height: 100vh;
 }
 .four{
     height: 200vh;
@@ -41,7 +36,7 @@
 }
 
 .bot-menu-sobre{
-	font-size: 1em;
+	font-size: 12px;
 	width: 56px; 
 	height: 56px; 
 	float: right;
