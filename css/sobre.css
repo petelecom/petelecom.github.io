@@ -106,6 +106,7 @@
     align-items: center;
     justify-content: center;
 
+
 }
 
 .foto-petiano img{
@@ -113,6 +114,8 @@
     height: auto;
     margin: 2%;
     text-align: center;
+	object-fit: cover;
+	border-radius: 50%;
 }
 
 .foto-petiano p{

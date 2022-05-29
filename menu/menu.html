@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>*{margin: 0;padding: 0;}</style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,500,900">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="menu.css">
+</head>
+<body>
+<section id="menu_pet">
+    <nav class="menu_pet mjp_navbar">
+        <!-- LOGO -->
+        <div class="mjp_logo"><img src="${path}/LogoEscrita.png" alt="logo pet telecom"></div>
+        <!-- NAVIGATION MENU -->
+        <ul class="mjp_nav-links">
+            <!-- USING CHECKBOX HACK -->
+            <input type="checkbox" id="checkbox_toggle"/>
+            <label for="checkbox_toggle" class="mjp_hamburger">&#9776;</label>
+            <!-- NAVIGATION MENUS -->
+            <div class="mjp_menu" id="mjs_div_menu">
+                <li><a id="mjs_home" href="#">Home</a></li>
+                <li class="mjp_services">
+                    <a>Atividades <i class="fa fa-caret-down"></i></a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="mjp_dropdown">
+                        <li><a id="mjs_minicurso" href="#">Minicuros</a></li>
+                        <li><a id="mjs_eventos" href="#">Eventos</a></li>
+                    </ul>
+                </li>
+                <li class="mjp_services">
+                    <a>Documentos <i class="fa fa-caret-down"></i></a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="mjp_dropdown">
+                        <li><a id="mjs_planejamentos" href="#">Planejamentos</a></li>
+                        <li><a id="mjs_relatorio_atividades" href="#">Relatório de Atividades</a></li>
+                        <li><a id="mjs_certificados" href="#">Certificados</a></li>
+                    </ul>
+                </li>
+                <li class="mjp_services">
+                    <a href="/">Inscrições <i class="fa fa-caret-down"></i></a>
+                    <!-- DROPDOWN MENU -->
+                    <ul class="mjp_dropdown">
+                        <li><a href="#">Processo Seletivo</a></li>
+                        <li><a href="#">SEET</a></li>
+                    </ul>
+                </li>
+                <li><a id="mjp_sobre" href="#">Sobre</a></li>
+            </div>
+        </ul>
+    </nav>
+</section>
+
+<section id="text_area" style="text-align: center;">
+    <script>
+        var txt = document.getElementById('text_area');
+
+        for (let i = 0; i < 100; i++) {
+            let elem = document.createElement('p');
+            elem.innerText = `${i}`;
+            txt.appendChild(elem);
+        }
+    </script>
+
+</section>
+</body>
+</html>
