@@ -195,7 +195,10 @@ body {
 
 /* Media Queries */
 @media only screen and (max-width: 768px) {
-
+	#main{
+		position: relative;
+		z-index: -200000;
+	}
 	.iphone-mock {
 		display: none;
 	}

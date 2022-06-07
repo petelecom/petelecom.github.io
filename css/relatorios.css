@@ -70,7 +70,9 @@
 }
 
 @media screen and (min-width: 760px){
+
 	.texto_rela{
+		text-align: center;
 		padding-top: 22%;
 	}
 }
