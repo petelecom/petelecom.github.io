@@ -63,7 +63,7 @@ function menu_run() {
                     </ul>
                 </li>
                 <li class="mjp_services">
-                    <a href="/">Inscrições <i class="fa fa-caret-down"></i></a>
+                    <a >Inscrições <i class="fa fa-caret-down"></i></a>
                     <!-- DROPDOWN MENU -->
                     <ul class="mjp_dropdown">
                         <li><a href="#">Processo Seletivo</a></li>

@@ -1,356 +1,235 @@
-
-.two{
-    height: 150vh;
-}
-.three{
-    height: 100vh;
-}
-.four{
-    height: 200vh;
-	margin-top: -44%;
-}
-.five{
-    height: 160vh;
-	margin-top: -37%;
-}
-.six{
-    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
+html {
+    scroll-behavior: smooth;
 }
 
-/* Menu */
-
-.cabecalho{
-    background-color:  #20C1D4;
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    padding: 0;
+    margin: 0;
 }
 
-.menu-diferente{
-	background-color: #fff;
-}
-
-.logo-sobre{
-	width: 65px; 
-	height: 65px; 
-	float: left; 
-	background: url(../imagens/AntenaLogoS.png) center center/70px no-repeat; 
-	font-size: 0px;
-}
-
-.bot-menu-sobre{
-	font-size: 12px;
-	width: 56px; 
-	height: 56px; 
-	float: right;
-	text-decoration-color: #fff; 
-	text-align: center; 
-	color: #20C1D4; 
-	border-radius: 56px; 
-	cursor: pointer; 
-	background: transparent;
-	border: 1px solid #20C1D4;
-	margin: 2%;
+/* For all section's title */
+.section-title {
+    font-family: Berlin Sans FB, verdana;
+    color: #290f85;
+    margin: -1% 0 1% 0;
+    font-size: 3rem;
 
 }
 
-/* Primeira Parte */
+/* Cabeçalho */
+.nav-item {
+    margin: -5vh 20px 20px 0;
+}
 
-#titulo_sobre{
-    width: 100%;
+#main {
+    background: url("../img/backgroundsobre.png");
+    background-size: cover;
+    height: 30vh;
+}
+
+.header-main {
+    margin-top: 10px;
     text-align: center;
-    color: #FFF;
-    font-size: 2.5em;
-    font-weight: 500;
+
+
 }
 
-/* Petianos */
-
-.petianos{
-	width: 80%;
-	margin: 0 auto;
-	height: 100%;
+.header-info {
+    margin-top: 1%;
+    font-weight: 530;
+    font-size: 26pt;
+    color: #FFFFFF;
 }
 
-.petianos h3{
-    margin-top: 15%;
-    margin-bottom: 10%;
+/* petianos*/
+#petianos {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-size: 16pt;
     color: #20C1D4;
-    text-align: right;
-    font-size: 1.8em;
-    font-weight: 500;
-}
-.petianos p{
-    color: #20C1D4;
-    font-size: 1em;
 }
 
-.tutora{
-	text-align: center;
-	padding: 20px 0;
+#petianos img {
+    width: 200px;
+    height: auto;
+    margin: 1%;
+    text-align: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.status-petiano{
+    border: 4px solid #20C1D4;
+}
+.status-expetiano{
+    border: 4px solid #ff1f6d;
 }
 
-.tutora img{
-    max-width: 150px;
-	height: auto;
+/* detalhes do petiano */
+.detailsHide .details{
+    display: none;
+}
+.detailsShow img{
+    display: none;
+}
+.detailsShow .details{
+    display: block;
+    float: top;
+    top:0;
+    left:0;
+    right:0;
+    margin: auto;
+    bottom: 100%;
+    width:100%;
+    height:100%;
+    min-height: 250px;
+    font-size: 12pt;
+    text-justify: distribute;
+    background: #e7f8fd;
+}
+/* tutora */
+.tutora {
+    display: block;
+    margin: auto;
+    width: 50%;
+    padding: 0;
+    text-align: center;
 }
 
-.tutora p{
-	padding-top: 20px;
+.tutora:hover {
+   display: flex;
+   color: #290f85;
+}
+.tutora:hover p {
+   display: none;
 }
 
-.foto-petiano{
-	width: 100%;
-    height: 75%;
-    margin: 0 auto;
+/* membros*/
+#div_petianos{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
+    max-width: 90%;
+    margin: auto;
+    width: 98%;
+    padding: 0;
+}
+.membro {
+    margin: auto;
+    width: 30%;
+}
+.membro p{
+    width: auto;
+}
+
+.membro:hover {
+    display: flex;
+    color: #290f85;
+}
+.membro:hover p {
+    display: none;
+}
+
+/* Footer */
+.footer {
+    height: 250px;
+    width: 100%;
+    background-color: #0aa5ec;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin: 0 0 0 0;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-
-
+    position: relative;
+    bottom: 0;
+    left: 0;;
 }
 
-.foto-petiano img{
-	max-width: 100px;
-    height: auto;
-    margin: 2%;
-    text-align: center;
-	object-fit: cover;
-	border-radius: 50%;
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
-.foto-petiano p{
-	text-align: center;
-	padding-top: 10%;
-}
-
-.foto-petiano div{
-	flex-basis: 140px;
-	display: flex;
+.item-rodape {
+    display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-.curso, .pet, .contato-sobre{
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 80%;
-	margin: 0 auto;
-	height: 100%;
-	color: white;
-	text-align: center;
+.rodape p {
+    color: white;
+    text-align: center;
+    font-size: 1em;
 }
 
-.curso h3, .pet h3, .contato-sobre h3{
-	padding-bottom: 10%;
-	font-size: 1.8em;
+.rodape i {
+    font-size: 30px;
+    color: white;
 }
 
-
-#mapa{
-	box-shadow:2px 2px teal;
-}
-
-@media screen and (min-width: 350px){
-	.two{
-		height: 240vh;
-		}
-	.three{
-		height: 185vh;
-	}
-	.four{
-		height: 145vh;
-		margin-top: -40%;
-	}
-	.five{
-		height: 140vh;
-		margin-top: -32%;
-	}
-	.six{
-		clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-	}
-
-	
-
-}
-
-@media screen and (min-width: 480px){
-	.logo-sobre{
-		width: 215px; 
-		background: url(../imagens/LogoEscritaS.png) center center/215px no-repeat;
-	}
-	.menu-diferente ul li a, .mud{
-		color: #20C1D4;
-		border-bottom: none;
-	} 
-}
-
-@media screen and (min-width: 760px){
-	.two{
-		height: 150vh;
-	}
-	.three{
-		height: 90vh;
-	}
-	.four{
-		height: 90vh;
-		margin-top: -14%;
-	}
-	.five{
-		height: 90vh;
-		margin-top: -16%;
-	}
-
-
-	.tutora img{
-		max-width: 180px;
-	}
-
-	.foto-petiano{
-		height: 70%;
-	}
-
-	.foto-petiano div{
-		flex-basis: 200px;
-	}
-
-	.foto-petiano img{
-		max-width: 150px;
-	}
-
-	.contato-map{
-		padding-top: 10%;
-	}
-}
-
-@media screen and (min-width: 1023px){
-
-	.three, .four, .five{
-		height: 70vh;
-	}
-
-	.four, .five, .six{
-		margin-top: -14%;
-	}
-
-}
-
-@media screen and (min-width: 1280px){
-
-    .one{
-        height: 60vh;
-        clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%); /* Alterei o sexto elemento de 90% para 75% paraficar parecido com os trapezios */
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    #main {
+        position: relative;
+        z-index: -200000;
     }
 
-    .two{
-    	margin-top: -12%;
-	    height: 230vh;
+    .header-info {
+        font-size: 2rem;
+        text-align: center;
+    }
+    #petianos img {
+        width: 150px;
+    }
+    #div_petianos{
+       display: block;
+    }
+    .membro{
+        width: 100%;
+    }
+    .footer {
+        height: 450px;
+        width: 100%;
+        background-color: #0aa5ec;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        margin: 0 0 0 0;
     }
 
-    .three{
-    	height: 90vh;
-	}
-	.four{
-	    height: 90vh;
-		margin-top: -6%;
-	}
-	.five{
-	    height: 90vh;
-		margin-top: -6%;
-	}
-
-	.six{
-	    clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 100%);
-	    margin-top: -6%;
-	}
-
-    #primeira_parte{
-    	padding-bottom: 5%;
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .tutora img{
-	    max-width: 200px;
-		height: auto;
-	}
+    .item-rodape {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
 
-    .petianos h3{
-	    padding-top: 10%;
-	    padding-bottom: 5%;
-	    margin: 0;
-	    color: #20C1D4;
-	    text-align: right;
-	    font-size: 1.8em;
-	    font-weight: 500;
-	}
+    .rodape p {
+        color: white;
+        text-align: center;
+        font-size: 7pt;
+    }
 
-	.petianos p{
-	    color: #20C1D4;
-	    font-size: 1.3em;
-	}
+    .rodape i {
+        font-size: 25px;
+        color: white;
+    }
 
-	.foto-petiano{
-		width: 100%;
-	    height: 50%;
-	    margin: 0 auto;
-	    display: flex;
-	    flex-direction: row;
-	    flex-wrap: wrap;
-	    align-items: center;
-	    justify-content: space-between;
-
-	}
-
-	.foto-petiano div{
-		flex-basis: 300px;
-		display: flex;
-	    flex-direction: column;
-	    align-items: center;
-	    padding-top: 1%;
-	}
-
-
-	.foto-petiano img{
-		max-width: 150px;
-	    height: auto;
-	    margin: 2%;
-	    text-align: center;
-	}
-
-	.foto-petiano p{
-		text-align: center;
-		padding-top: 7%;
-	}
-
-
-	/* Terceira parte */
-
-	.curso, .contato-text{
-		align-items: flex-start;
-		text-align: left;
-	}
-	.pet{
-		align-items: flex-end;
-		text-align: right;
-	}
-
-	.contato-sobre{
-		flex-direction: row;
-		justify-content: space-between;
-		width: 70%;
-	}
-
-
-
-
-	.curso h3, .pet h3, .contato-sobre h3{
-		padding-bottom: 3%;
-		font-size: 1.8em;
-	}
-
-
-	.contato-map{
-		padding-top: 0;
-	}
 }
+
+
+/* SOBRE */
 
