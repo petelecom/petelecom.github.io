@@ -66,7 +66,8 @@
             Possui graduação em Engenharia Elétrica pela Universidade Federal de Uberlândia (2003),
             mestrado em Engenharia Elétrica pela Universidade Federal de Uberlândia (2005) e doutorado
             em Engenharia Elétrica pela Universidade Federal de Uberlândia (2010). Atualmente é professor adjunto
-            da Universidade Federal de Uberlândia. Tem experiência na área de Engenharia Elétrica, com ênfase em Processamento Digital de imagens e Reconhecimento Biométrico.
+            da Universidade Federal de Uberlândia. Tem experiência na área de Engenharia Elétrica, com ênfase em
+            Processamento Digital de imagens e Reconhecimento Biométrico.
         </div>
     </div>
     <div id="div_petianos">
@@ -121,22 +122,6 @@
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
 
-
-<script>
-    var sobre_f = function (id) {
-        let element = document.getElementById(id);
-        let base = document.getElementById('menu');
-        let offset = base.offsetHeight;
-        let bodyRect = document.body.getBoundingClientRect().top;
-        let elementRect = element.getBoundingClientRect().top;
-        let elementPosition = elementRect - bodyRect;
-        let offsetPosition = elementPosition - offset;
-        window.scrollTo({
-            top: offsetPosition,
-            behavior: 'smooth'
-        });
-    }
-</script>
 <script src="updates/sobre.js"></script>
 
 </body>

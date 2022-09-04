@@ -15,7 +15,6 @@ body {
     color: #290f85;
     margin: -1% 0 1% 0;
     font-size: 3rem;
-
 }
 
 /* Cabeçalho */
@@ -32,15 +31,13 @@ body {
 .header-main {
     margin-top: 10px;
     text-align: center;
-
-
 }
 
 .header-info {
-    margin-top: 1%;
     font-weight: 530;
     font-size: 26pt;
     color: #FFFFFF;
+    margin: 1% auto 1%;
 }
 
 /* petianos*/
@@ -59,35 +56,41 @@ body {
     object-fit: cover;
     border-radius: 50%;
 }
-.status-petiano{
+
+.status-petiano {
     border: 4px solid #20C1D4;
 }
-.status-expetiano{
+
+.status-expetiano {
     border: 4px solid #ff1f6d;
 }
 
 /* detalhes do petiano */
-.detailsHide .details{
+.detailsHide .details {
     display: none;
 }
-.detailsShow img{
+
+.detailsShow img {
     display: none;
+
 }
-.detailsShow .details{
+
+.detailsShow .details {
     display: block;
     float: top;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     margin: auto;
     bottom: 100%;
-    width:100%;
-    height:100%;
+    width: 100%;
+    height: 100%;
     min-height: 250px;
     font-size: 12pt;
     text-justify: distribute;
     background: #e7f8fd;
 }
+
 /* tutora */
 .tutora {
     display: block;
@@ -98,15 +101,18 @@ body {
 }
 
 .tutora:hover {
-   display: flex;
-   color: #290f85;
+    display: flex;
+    color: #290f85;
+
 }
+
 .tutora:hover p {
-   display: none;
+
+    display: none;
 }
 
 /* membros*/
-#div_petianos{
+#div_petianos {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -115,11 +121,13 @@ body {
     width: 98%;
     padding: 0;
 }
+
 .membro {
     margin: auto;
     width: 30%;
 }
-.membro p{
+
+.membro p {
     width: auto;
 }
 
@@ -127,6 +135,7 @@ body {
     display: flex;
     color: #290f85;
 }
+
 .membro:hover p {
     display: none;
 }
@@ -184,15 +193,23 @@ body {
         font-size: 2rem;
         text-align: center;
     }
+
     #petianos img {
         width: 150px;
     }
-    #div_petianos{
-       display: block;
+
+    #div_petianos {
+        display: block;
     }
-    .membro{
+
+    .tutora:hover {
+        width: 90%;
+    }
+
+    .membro {
         width: 100%;
     }
+
     .footer {
         height: 450px;
         width: 100%;
