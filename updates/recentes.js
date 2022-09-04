@@ -30,7 +30,7 @@
             'type': 'local',
             'link': '#',
             'id': 'Resultado Processo Seletivo 2022-1',
-            'banner': 'aprovadosPs.png'
+            'banner': 'aprovadosPS.png'
         }
         ];
 
