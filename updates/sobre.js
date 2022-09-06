@@ -13,7 +13,7 @@
             status: 'Petiano',
             descricao: 'Graduanda em Engenharia Eletrônica e de Telecomunicações.'
         },
-        {nome: 'Arthur', sobrenome: 'Nunes Garcia', status: 'Petiano', descricao: ''},
+        {nome: 'Arthur', sobrenome: 'Nunes Garcia', status: 'Petiano', descricao: 'Ingressou no curso de Engenharia Eletrônica e de Telecomunicações na Universidade Federal de Uberlândia (UFU) no Campus Patos de Minas, atuando em atividades de monitoria e extensão. No final de 2021, realizou transferência para o mesmo curso no Campus Santa Mônica, ingressando no PET Telecom em Agosto de 2022. Além de membro do PET, também atua como membro na equipe EPTA.'},
         {nome: 'Giovana', sobrenome: 'Rodrigues', status: 'Ex-petiano', descricao: ''},
         {nome: 'Guilherme', sobrenome: 'Ferreira de Jesus', status: 'Petiano', descricao: ''},
         {nome: 'Heloise', sobrenome: 'Marimoto Prausio da Silva', status: 'Petiano', descricao: ''},
