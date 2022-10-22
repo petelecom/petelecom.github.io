@@ -9,6 +9,11 @@
 !function () {
     let recentes = [
         {
+            'link': 'https://forms.gle/6sYHDuQRVp2BhMB86',
+            'id': '2ª Edição Semana de Engenharia Eletrônica de Telecomunicações',
+            'banner': 'https://drive.google.com/file/d/1B0ROAJe75Jft0pHS2JDgDrIh3HzqCHD-/view?usp=sharing',
+            'type': 'gdrive'
+        },{
             'type': 'local',
             'link': 'http://www.peteletricaufu.com.br/ceel/evento/inicio/',
             'id': 'XX CEEL',
