@@ -6,18 +6,20 @@
 
  id: nome do item
  */
+
 !function () {
     let recentes = [
-        {
+        /*{
             'link': 'https://forms.gle/6sYHDuQRVp2BhMB86',
             'id': '2ª Edição Semana de Engenharia Eletrônica de Telecomunicações',
             'banner': 'https://drive.google.com/file/d/1B0ROAJe75Jft0pHS2JDgDrIh3HzqCHD-/view?usp=sharing',
             'type': 'gdrive'
-        },{
+        },*/
+        {
             'type': 'local',
             'link': 'http://www.peteletricaufu.com.br/ceel/evento/inicio/',
-            'id': 'XX CEEL',
-            'banner': 'CEEL.jpg'
+            'id': 'XXI CEEL',
+            'banner': 'CEELXXI.jpg'
         },
         {
             'type': 'local',
@@ -25,18 +27,18 @@
             'id': 'Minicurso Processing',
             'banner': 'processing.webp'
         },
-        {
+        /*{
             'type': 'local',
             'link': '#',
             'id': 'Conversação Francês',
             'banner': 'conversacaoFrances.jpg'
-        },
-        {
+        },*/
+        /*{
             'type': 'local',
             'link': '#',
             'id': 'Resultado Processo Seletivo 2022-1',
             'banner': 'aprovadosPS.png'
-        }
+        }*/
         ];
 
 
