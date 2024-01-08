@@ -3,7 +3,10 @@
     let petianos = [
 
         {nome: 'Olavo', sobrenome: 'Caetano Inácio', status: 'Petiano', descricao: ''},
-        {nome: 'Mateus', sobrenome: 'da Silva Fernandes', status: 'Petiano', descricao: ''},
+        {nome: 'Gabriel', sobrenome: 'Machado Silva Vida', status: 'Petiano', descricao: ''},
+        {nome: 'Thalyta', sobrenome: 'Lopes Carneiro', status: 'Petiano', descricao: ''},
+        {nome: 'Marco Túlio', sobrenome: 'França', status: 'Petiano', descricao: ''},
+        {nome: 'Victor Gabriel', sobrenome: 'Gondim Martins', status: 'Petiano', descricao: ''},
         {nome: 'Murilo', sobrenome: 'Gabriel Leal Vieira', status: 'Petiano', descricao: ''},
         {nome: 'Arthur', sobrenome: 'Nunes Garcia', status: 'Petiano', descricao: 'Ingressou no curso de Engenharia Eletrônica e de Telecomunicações na Universidade Federal de Uberlândia (UFU) no Campus Patos de Minas, atuando em atividades de monitoria e extensão. No final de 2021, realizou transferência para o mesmo curso no Campus Santa Mônica, ingressando no PET Telecom em Agosto de 2022. Além de membro do PET, também atua como membro na equipe EPTA.'},
 
@@ -17,6 +20,7 @@
         {nome: 'Jhonatha', sobrenome: 'Wyllerson Rodrigues Medeiros', status: 'Ex-petiano', descricao: ''},
         {nome: 'Júlia', sobrenome: 'Gabriele Marques da Silva', status: 'Ex-Petiana', descricao: ''},
         {nome: 'Mateus', sobrenome: 'Flausino de Araújo', status: 'Ex-petiano', descricao: ''},     
+        {nome: 'Mateus', sobrenome: 'da Silva Fernandes', status: 'Ex-Petiano', descricao: ''},
         {nome: 'Rafael', sobrenome: 'Albergaria Barbosa Segnorini', status: 'Ex-Petiano', descricao: ''},
         {nome: 'Samuel', sobrenome: 'Alves Tavares', status: 'Ex-petiano', descricao: ''},
     ];

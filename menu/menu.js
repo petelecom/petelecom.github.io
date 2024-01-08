@@ -67,7 +67,7 @@ function menu_run() {
                     <!-- DROPDOWN MENU -->
                     <ul class="mjp_dropdown">
                         <li><a href="#">Processo Seletivo</a></li>
-                        <li><a href="https://forms.gle/6sYHDuQRVp2BhMB86">SEET</a></li>
+                        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScUraJTz8zMvr_NLo0PlX5aPjDTYsL9rPeQQ1kBqEtUPidgTg/viewform">Conversação em Francês</a></li>
                     </ul>
                 </li>
                 <li><a id="mjp_sobre" href="#">Sobre</a></li>

@@ -15,30 +15,30 @@
             'banner': 'https://drive.google.com/file/d/1B0ROAJe75Jft0pHS2JDgDrIh3HzqCHD-/view?usp=sharing',
             'type': 'gdrive'
         },*/
-        {
+        /*{
             'type': 'local',
             'link': 'http://www.peteletricaufu.com.br/ceel/evento/inicio/',
             'id': 'XXI CEEL',
             'banner': 'CEELXXI.jpg'
-        },
+        },*/
+        /*{
+            'type': 'local',
+            'link': '#',
+            'id': 'Processo Seletivo PETelecom 2023-2',
+            'banner': 'PS.png'
+        },*/
         {
             'type': 'local',
             'link': 'https://youtube.com/playlist?list=PLOZhhIZ8qMxa5ciJcBW2YOfZTmkUnjFdq',
             'id': 'Minicurso Processing',
             'banner': 'processing.webp'
         },
-        /*{
+        {
             'type': 'local',
-            'link': '#',
+            'link': 'https://docs.google.com/forms/d/e/1FAIpQLScUraJTz8zMvr_NLo0PlX5aPjDTYsL9rPeQQ1kBqEtUPidgTg/viewform',
             'id': 'Conversação Francês',
-            'banner': 'conversacaoFrances.jpg'
-        },*/
-        /*{
-            'type': 'local',
-            'link': '#',
-            'id': 'Resultado Processo Seletivo 2022-1',
-            'banner': 'aprovadosPS.png'
-        }*/
+            'banner': 'conversacaoFrances.png'
+        }
         ];
 
 
