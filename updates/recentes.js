@@ -20,13 +20,13 @@
             'link': 'http://www.peteletricaufu.com.br/ceel/evento/inicio/',
             'id': 'XXI CEEL',
             'banner': 'CEELXXI.jpg'
-        },
+        },*/
         {
             'type': 'local',
-            'link': 'https://forms.gle/mwd1L7EYtw9ja5XP6',
+            'link': 'https://drive.google.com/file/d/1v8vkLTcN_5Q_ivgsmXm13zxArEI9NbVt/view?usp=drive_link',
             'id': 'Processo Seletivo PETelecom 2023-2',
             'banner': 'PS.png'
-        },*/
+        },
         {
             'type': 'local',
             'link': 'https://youtube.com/playlist?list=PLOZhhIZ8qMxa5ciJcBW2YOfZTmkUnjFdq',
