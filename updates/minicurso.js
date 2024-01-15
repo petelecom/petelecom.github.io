@@ -16,24 +16,24 @@ alt: nome do item
             'textButton': 'Inscreva-se'
         }, {
             'alt': 'Minicurso Processing',
-            'type': 'gdrive',
-            'image': 'https://drive.google.com/file/d/1X7OVftiGI7Od8rMiFZC6KbXfYq4i4XXt/view?usp=sharing',
+            'type': 'local',
+            'image': 'processing.png',
             'link': 'https://pet-telecom.coursify.me/courses/minicurso-de-processing',
             'background': '#000000',
             'textButton': 'Inscreva-se'
 
         }, {
             'alt': 'Minicurso Satelites',
-            'type': 'gdrive',
-            'image': 'https://drive.google.com/file/d/1_56ju3qXoK8yhWIfgMyqlRSX3f9GmOW_/view?usp=sharing',
+            'type': 'local',
+            'image': 'satelites.png',
             'link': 'https://youtube.com/playlist?list=PLOZhhIZ8qMxbgAIY1EIqbpQyS5yOKQ-ks',
             'background': '#00415D',
             'textButton': 'Assistir'
 
         }, {
             'alt': 'Minicurso Desenvolvimento de Jogos',
-            'type': 'gdrive',
-            'image': 'https://drive.google.com/file/d/1GzlcqaF-y1E-Ey-AkBAmul30FcuXeDJi/view?usp=sharing',
+            'type': 'local',
+            'image': 'desenvimentoDeJogos.png',
             'link': 'https://youtube.com/playlist?list=PLOZhhIZ8qMxYLAqebt5yA0xExIAbYwfX4',
             'background': '#99DAE8',
             'textButton': 'Assistir'
