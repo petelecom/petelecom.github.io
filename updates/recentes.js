@@ -23,7 +23,7 @@
         },*/
         {
             'type': 'local',
-            'link': 'https://drive.google.com/file/d/1v8vkLTcN_5Q_ivgsmXm13zxArEI9NbVt/view?usp=drive_link',
+            'link': 'https://forms.gle/mwd1L7EYtw9ja5XP6',
             'id': 'Processo Seletivo PETelecom 2023-2',
             'banner': 'PS.png'
         },

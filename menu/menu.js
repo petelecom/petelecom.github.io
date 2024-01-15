@@ -66,7 +66,7 @@ function menu_run() {
                     <a >Inscrições <i class="fa fa-caret-down"></i></a>
                     <!-- DROPDOWN MENU -->
                     <ul class="mjp_dropdown">
-                        <li><a href="https://drive.google.com/file/d/1v8vkLTcN_5Q_ivgsmXm13zxArEI9NbVt/view?usp=drive_link">Processo Seletivo</a></li>
+                        <li><a href="https://forms.gle/mwd1L7EYtw9ja5XP6">Processo Seletivo</a></li>
                         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScUraJTz8zMvr_NLo0PlX5aPjDTYsL9rPeQQ1kBqEtUPidgTg/viewform">Conversação em Francês</a></li>
                     </ul>
                 </li>
