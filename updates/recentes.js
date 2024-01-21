@@ -20,6 +20,12 @@
             'link': 'http://www.peteletricaufu.com.br/ceel/evento/inicio/',
             'id': 'XXI CEEL',
             'banner': 'CEELXXI.jpg'
+        },
+        {
+            'type': 'local',
+            'link': 'https://docs.google.com/forms/d/e/1FAIpQLScUraJTz8zMvr_NLo0PlX5aPjDTYsL9rPeQQ1kBqEtUPidgTg/viewform',
+            'id': 'Conversação Francês',
+            'banner': 'conversacaoFrances.png'
         },*/
         {
             'type': 'local',
@@ -35,10 +41,10 @@
         },
         {
             'type': 'local',
-            'link': 'https://docs.google.com/forms/d/e/1FAIpQLScUraJTz8zMvr_NLo0PlX5aPjDTYsL9rPeQQ1kBqEtUPidgTg/viewform',
-            'id': 'Conversação Francês',
-            'banner': 'conversacaoFrances.png'
-        }
+            'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeifCzmjWitFYEWVVsEa19-LEX4b-aebuQBGR-nPWbScmvg3Q/viewform',
+            'id': 'Conversação em Inglês',
+            'banner': 'conversacaoIngles.jpg'
+        },
         ];
 
 
