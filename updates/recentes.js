@@ -38,7 +38,6 @@
             'link': 'https://youtube.com/playlist?list=PLOZhhIZ8qMxa5ciJcBW2YOfZTmkUnjFdq',
             'id': 'Minicurso Processing',
             'banner': 'processing.webp',
-            'web': 'local'
         },
         {
             'type': 'local',
