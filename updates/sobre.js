@@ -5,7 +5,7 @@
         {nome: 'Arthur', sobrenome: 'Nunes Garcia', status: 'Petiano', descricao: 'Ingressou no curso de Engenharia Eletrônica e de Telecomunicações na Universidade Federal de Uberlândia (UFU) no Campus Patos de Minas, atuando em atividades de monitoria e extensão. No final de 2021, realizou transferência para o mesmo curso no Campus Santa Mônica, ingressando no PET Telecom em Agosto de 2022. Além de membro do PET, também atua como membro na equipe EPTA.'},
         {nome: 'Gabriel Inácio', sobrenome: 'de Almeida Melo', status: 'Petiano', descricao: ''},
         {nome: 'Gabriel Machado', sobrenome: 'Silva Vida', status: 'Petiano', descricao: ''},
-        {nome: 'Haniel', sobrenome: 'sônego Portella', status: 'Petiano', descricao: ''},
+        {nome: 'Haniel', sobrenome: 'Sônego Portella', status: 'Petiano', descricao: ''},
         {nome: 'Júlia Gabriele', sobrenome: 'Marques da Silva', status: 'Petiano', descricao: ''},
         {nome: 'Marco Antonio', sobrenome: 'Tomaz de Oliveira Filho', status: 'Petiano', descricao: ''},
         {nome: 'Marco Túlio', sobrenome: 'França', status: 'Petiano', descricao: ''},
