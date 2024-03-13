@@ -2,16 +2,20 @@
 
     let petianos = [
 
-        {nome: 'Olavo', sobrenome: 'Caetano Inácio', status: 'Petiano', descricao: ''},
-        {nome: 'Gabriel', sobrenome: 'Machado Silva Vida', status: 'Petiano', descricao: ''},
-        {nome: 'Thalyta', sobrenome: 'Lopes Carneiro', status: 'Petiano', descricao: ''},
-        {nome: 'Marco Túlio', sobrenome: 'França', status: 'Petiano', descricao: ''},
-        {nome: 'Victor Gabriel', sobrenome: 'Gondim Martins', status: 'Petiano', descricao: ''},
-        {nome: 'Murilo', sobrenome: 'Gabriel Leal Vieira', status: 'Petiano', descricao: ''},
         {nome: 'Arthur', sobrenome: 'Nunes Garcia', status: 'Petiano', descricao: 'Ingressou no curso de Engenharia Eletrônica e de Telecomunicações na Universidade Federal de Uberlândia (UFU) no Campus Patos de Minas, atuando em atividades de monitoria e extensão. No final de 2021, realizou transferência para o mesmo curso no Campus Santa Mônica, ingressando no PET Telecom em Agosto de 2022. Além de membro do PET, também atua como membro na equipe EPTA.'},
-
+        {nome: 'Gabriel Inácio', sobrenome: 'de Almeida Melo', status: 'Petiano', descricao: ''},
+        {nome: 'Gabriel Machado', sobrenome: 'Silva Vida', status: 'Petiano', descricao: ''},
+        {nome: 'Haniel', sobrenome: 'sônego Portella', status: 'Petiano', descricao: ''},
+        {nome: 'Júlia Gabriele', sobrenome: 'Marques da Silva', status: 'Petiano', descricao: ''},
+        {nome: 'Marco Antonio', sobrenome: 'Tomaz de Oliveira Filho', status: 'Petiano', descricao: ''},
+        {nome: 'Marco Túlio', sobrenome: 'França', status: 'Petiano', descricao: ''},
+        {nome: 'Murilo', sobrenome: 'Gabriel Leal Vieira', status: 'Petiano', descricao: ''},
+        {nome: 'Olavo', sobrenome: 'Caetano Inácio', status: 'Petiano', descricao: ''},
+        {nome: 'Pâmela', sobrenome: 'Leite Conti', status: 'Petiano', descricao: ''},
+        {nome: 'Victor Gabriel', sobrenome: 'Gondim Martins', status: 'Petiano', descricao: ''},
+        
         // Ex Petianos -----------------------------------------------------------------------
-        {nome: 'Amanda', sobrenome: 'Lopes Gonçalves', status: 'Ex-Petiana', descricao: 'Possui ensino-medio-segundo-graupelo Colégio Einstein(2016). Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações.'},
+       /* {nome: 'Amanda', sobrenome: 'Lopes Gonçalves', status: 'Ex-Petiana', descricao: 'Possui ensino-medio-segundo-graupelo Colégio Einstein(2016). Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações.'},
         {nome: 'Ana Júlia', sobrenome: 'Costa Santana', status: 'Ex-Petiana', descricao: 'Graduanda em Engenharia Eletrônica e de Telecomunicações.'},
         {nome: 'Giovana', sobrenome: 'Rodrigues', status: 'Ex-petiano', descricao: ''},
         {nome: 'Guilherme', sobrenome: 'Ferreira de Jesus', status: 'Ex-Petiano', descricao: ''},
@@ -22,7 +26,7 @@
         {nome: 'Mateus', sobrenome: 'Flausino de Araújo', status: 'Ex-petiano', descricao: ''},     
         {nome: 'Mateus', sobrenome: 'da Silva Fernandes', status: 'Ex-Petiano', descricao: ''},
         {nome: 'Rafael', sobrenome: 'Albergaria Barbosa Segnorini', status: 'Ex-Petiano', descricao: ''},
-        {nome: 'Samuel', sobrenome: 'Alves Tavares', status: 'Ex-petiano', descricao: ''},
+        {nome: 'Samuel', sobrenome: 'Alves Tavares', status: 'Ex-petiano', descricao: ''},*/
     ];
 
 
@@ -51,7 +55,7 @@
         }
         body = body + `\n
             <div class="membro detailsHide" onmouseover="showDetailsPetiano(this)" onmouseleave="closeDetailsPetiano(this)">
-                <img src="./img/petianos/${petiano.nome}%20${petiano.sobrenome}.png" class="${classe}">
+                <img src="./img/petianos/${petiano.nome}%20${petiano.sobrenome}.png"  class="${classe}">
                 <p class="nome-pet">${status} ${petiano.nome}</p>
                 <div class="details">
                     ${petiano.descricao}

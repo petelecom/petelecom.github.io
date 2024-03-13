@@ -9,7 +9,8 @@
 
 !function () {
     let recentes = [
-        /*{
+        /*
+        {
             'link': 'https://forms.gle/6sYHDuQRVp2BhMB86',
             'id': '2ª Edição Semana de Engenharia Eletrônica de Telecomunicações',
             'banner': 'https://drive.google.com/file/d/1B0ROAJe75Jft0pHS2JDgDrIh3HzqCHD-/view?usp=sharing',
@@ -23,16 +24,28 @@
         },
         {
             'type': 'local',
-            'link': 'https://docs.google.com/forms/d/e/1FAIpQLScUraJTz8zMvr_NLo0PlX5aPjDTYsL9rPeQQ1kBqEtUPidgTg/viewform',
-            'id': 'Conversação Francês',
-            'banner': 'conversacaoFrances.png'
-        },
-        {
-            'type': 'local',
             'link': 'https://forms.gle/mwd1L7EYtw9ja5XP6',
             'id': 'Processo Seletivo PETelecom 2023-2',
             'banner': 'PS.png'
+        },
+        {
+            'type': 'local',
+            'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeifCzmjWitFYEWVVsEa19-LEX4b-aebuQBGR-nPWbScmvg3Q/viewform',
+            'id': 'Conversação em Inglês',
+            'banner': 'conversacaoIngles.jpg'
+        }
+        {
+            'type': 'local',
+            'link': '#',
+            'id': 'PET Informa: Modulação AM e FM',
+            'banner': 'PETinforma.png'
         },*/
+        {
+            'type': 'local',
+            'link': 'https://docs.google.com/forms/d/e/1FAIpQLSdCe-ET68WpiqI8K7gPczqh_UDxLV8UBofTY7GVyGnZsTubTA/viewform',
+            'id': 'Conversação Francês',
+            'banner': 'conversacaoFrances.jpg'
+        },
         {
             'type': 'local',
             'link': 'https://youtube.com/playlist?list=PLOZhhIZ8qMxa5ciJcBW2YOfZTmkUnjFdq',
@@ -44,12 +57,6 @@
             'link': 'https://www.canva.com/design/DAEcn5ZTAT0/Sk5RQF3BboWzHsaNmog5IA/view?utm_content=DAEcn5ZTAT0&utm_campaign=designshare&utm_medium=link&utm_source=editor#1',
             'id': 'Manual de Como Utilizar as Normas ABNT',
             'banner': 'NormasABNT.png'
-        },
-        {
-            'type': 'local',
-            'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeifCzmjWitFYEWVVsEa19-LEX4b-aebuQBGR-nPWbScmvg3Q/viewform',
-            'id': 'Conversação em Inglês',
-            'banner': 'conversacaoIngles.jpg'
         },
         ];
 
