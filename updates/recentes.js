@@ -39,12 +39,18 @@
             'link': '#',
             'id': 'PET Informa: Modulação AM e FM',
             'banner': 'PETinforma.png'
-        },*/
+        },
         {
             'type': 'local',
             'link': 'https://docs.google.com/forms/d/e/1FAIpQLSdCe-ET68WpiqI8K7gPczqh_UDxLV8UBofTY7GVyGnZsTubTA/viewform',
             'id': 'Conversação Francês',
             'banner': 'conversacaoFrances.jpg'
+        },*/
+        {
+            'type': 'local',
+            'link': 'https://www.peteletricaufu.com.br/ceel/evento/inicio/',
+            'id': 'Submissões abertas para a CEEL XXII',
+            'banner': 'CEELXXII.jpg',
         },
         {
             'type': 'local',
