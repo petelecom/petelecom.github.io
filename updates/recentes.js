@@ -48,7 +48,13 @@
         },*/
         {
             'type': 'local',
-            'link': 'https://www.peteletricaufu.com.br/ceel/evento/inicio/',
+            'link': 'https://docs.google.com/forms/d/18gxIL6_nQYCB2ds49OGeUIrp1DsgZpdqHb3NFsYwyYM/viewform?edit_requested=true',
+            'id': 'Inscrições SEET',
+            'banner': 'SEET.png'
+        },
+        {
+            'type': 'local',
+            'link': 'https://ceel2024.sciencesconf.org/',
             'id': 'Submissões abertas para a CEEL XXII',
             'banner': 'CEELXXII.jpg',
         },
@@ -63,7 +69,7 @@
             'link': 'https://www.canva.com/design/DAEcn5ZTAT0/Sk5RQF3BboWzHsaNmog5IA/view?utm_content=DAEcn5ZTAT0&utm_campaign=designshare&utm_medium=link&utm_source=editor#1',
             'id': 'Manual de Como Utilizar as Normas ABNT',
             'banner': 'NormasABNT.png'
-        },
+        }
         ];
 
 
