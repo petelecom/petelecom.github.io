@@ -45,12 +45,18 @@
             'link': 'https://docs.google.com/forms/d/e/1FAIpQLSdCe-ET68WpiqI8K7gPczqh_UDxLV8UBofTY7GVyGnZsTubTA/viewform',
             'id': 'Conversação Francês',
             'banner': 'conversacaoFrances.jpg'
-        },*/
+        },
         {
             'type': 'local',
             'link': 'https://docs.google.com/forms/d/18gxIL6_nQYCB2ds49OGeUIrp1DsgZpdqHb3NFsYwyYM/viewform?edit_requested=true',
             'id': 'Inscrições SEET',
             'banner': 'SEET.png'
+        },*/
+        {
+            'type': 'local',
+            'banner': 'PS.png',
+            'link': 'pdf/Processo Seletivo/SEI_5786238_Edital_3.pdf',
+            'id': 'Edital para o Processo Seletivo 24/1',
         },
         {
             'type': 'local',
