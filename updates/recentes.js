@@ -55,8 +55,8 @@
         {
             'type': 'local',
             'banner': 'PS.png',
-            'link': 'pdf/Processo Seletivo/SEI_5786238_Edital_3.pdf',
-            'id': 'Edital para o Processo Seletivo 24/1',
+            'link': 'https://forms.gle/mwd1L7EYtw9ja5XP6',
+            'id': 'Formulário para o Processo Seletivo 24/1',
         },
         {
             'type': 'local',
