@@ -57,7 +57,7 @@ function menu_run() {
                     <a>Documentos <i class="fa fa-caret-down"></i></a>
                     <!-- DROPDOWN MENU -->
                     <ul class="mjp_dropdown">
-                        <li><a href="pdf/Processo Seletivo/SEI_5786238_Edital_3.pdf">Edital para o Processo Seletivo</a></li>
+                        <li><a href="pdf/Processo Seletivo/SEI_6134852_Edital_4.pdf">Edital para o Processo Seletivo</a></li>
                         <li><a id="mjs_planejamentos" href="#">Planejamentos</a></li>
                         <li><a id="mjs_relatorio_atividades" href="#">Relatório de Atividades</a></li>
                         <li><a id="mjs_certificados" href="#">Certificados</a></li>
@@ -68,7 +68,7 @@ function menu_run() {
                     <!-- DROPDOWN MENU -->
                     <ul class="mjp_dropdown">
                         <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScUraJTz8zMvr_NLo0PlX5aPjDTYsL9rPeQQ1kBqEtUPidgTg/viewform">Conversação em Inglês</a></li>
-                        <li><a href="https://forms.gle/mwd1L7EYtw9ja5XP6">Processo Seletivo</a></li>
+                        <li><a href="https://forms.gle/sF9T5F1CxfFQViTXA">Processo Seletivo</a></li>
                     </ul>
                 </li>
                 <li><a id="mjp_sobre" href="#">Sobre</a></li>

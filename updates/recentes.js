@@ -51,18 +51,18 @@
             'link': 'https://docs.google.com/forms/d/18gxIL6_nQYCB2ds49OGeUIrp1DsgZpdqHb3NFsYwyYM/viewform?edit_requested=true',
             'id': 'Inscrições SEET',
             'banner': 'SEET.png'
-        },*/
-        {
-            'type': 'local',
-            'banner': 'PS.png',
-            'link': 'https://forms.gle/mwd1L7EYtw9ja5XP6',
-            'id': 'Formulário para o Processo Seletivo 24/1',
         },
         {
             'type': 'local',
             'link': 'https://ceel2024.sciencesconf.org/',
             'id': 'Submissões abertas para a CEEL XXII',
             'banner': 'CEELXXII.jpg',
+        },*/
+        {
+            'type': 'local',
+            'banner': 'PS.png',
+            'link': 'https://forms.gle/sF9T5F1CxfFQViTXA',
+            'id': 'Processo Seletivo 24/02',
         },
         {
             'type': 'local',
