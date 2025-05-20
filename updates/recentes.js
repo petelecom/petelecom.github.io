@@ -18,18 +18,6 @@
         },
         {
             'type': 'local',
-            'link': 'http://www.peteletricaufu.com.br/ceel/evento/inicio/',
-            'id': 'XXI CEEL',
-            'banner': 'CEELXXI.jpg'
-        },
-        {
-            'type': 'local',
-            'link': 'https://forms.gle/mwd1L7EYtw9ja5XP6',
-            'id': 'Processo Seletivo PETelecom 2023-2',
-            'banner': 'PS.png'
-        },
-        {
-            'type': 'local',
             'link': 'https://docs.google.com/forms/d/e/1FAIpQLSeifCzmjWitFYEWVVsEa19-LEX4b-aebuQBGR-nPWbScmvg3Q/viewform',
             'id': 'Conversação em Inglês',
             'banner': 'conversacaoIngles.jpg'
@@ -57,12 +45,18 @@
             'link': 'https://ceel2024.sciencesconf.org/',
             'id': 'Submissões abertas para a CEEL XXII',
             'banner': 'CEELXXII.jpg',
-        },*/
+        },
         {
             'type': 'local',
             'banner': 'PS.png',
             'link': 'https://forms.gle/sF9T5F1CxfFQViTXA',
-            'id': 'Processo Seletivo 24/02',
+            'id': 'Processo Seletivo Aberto 24/02',
+        },*/
+        {
+            'type': 'local',
+            'link': 'https://www.instagram.com/jeel_ufu/',
+            'id': 'Jornada da Engenharia Elétrica',
+            'banner': 'JEEL.jpg',
         },
         {
             'type': 'local',

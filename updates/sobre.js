@@ -6,13 +6,15 @@
         {nome: 'Gabriel Inácio', sobrenome: 'de Almeida Melo', status: 'Petiano', descricao: ''},
         {nome: 'Gabriel Machado', sobrenome: 'Silva Vida', status: 'Petiano', descricao: ''},
         {nome: 'Haniel', sobrenome: 'Sônego Portella', status: 'Petiano', descricao: ''},
+        {nome: 'Harumy', sobrenome: 'Otsuka Shindo', status: 'Petiano', descricao: ''},
         {nome: 'Júlia Gabriele', sobrenome: 'Marques da Silva', status: 'Petiano', descricao: ''},
+        {nome: 'Luis Henrique', sobrenome: 'Mussa Pires', status: 'Petiano', descricao: ''},
         {nome: 'Marco Antonio', sobrenome: 'Tomaz de Oliveira Filho', status: 'Petiano', descricao: ''},
         {nome: 'Marco Túlio', sobrenome: 'França', status: 'Petiano', descricao: ''},
-        {nome: 'Murilo', sobrenome: 'Gabriel Leal Vieira', status: 'Petiano', descricao: ''},
-        {nome: 'Olavo', sobrenome: 'Caetano Inácio', status: 'Petiano', descricao: ''},
         {nome: 'Pâmela', sobrenome: 'Leite Conti', status: 'Petiano', descricao: ''},
+        {nome: 'Pedro Lucca', sobrenome: 'Lima Nonato de Medeiros', status: 'Petiano', descricao: ''},
         {nome: 'Victor Gabriel', sobrenome: 'Gondim Martins', status: 'Petiano', descricao: ''},
+        {nome: 'Vinicius', sobrenome: 'Xavier Faria', status: 'Petiano', descricao: ''},
         
         // Ex Petianos -----------------------------------------------------------------------
        /* {nome: 'Amanda', sobrenome: 'Lopes Gonçalves', status: 'Ex-Petiana', descricao: 'Possui ensino-medio-segundo-graupelo Colégio Einstein(2016). Tem experiência na área de Engenharia Elétrica, com ênfase em Telecomunicações.'},
@@ -25,6 +27,8 @@
         {nome: 'Júlia', sobrenome: 'Gabriele Marques da Silva', status: 'Ex-Petiana', descricao: ''},
         {nome: 'Mateus', sobrenome: 'Flausino de Araújo', status: 'Ex-petiano', descricao: ''},     
         {nome: 'Mateus', sobrenome: 'da Silva Fernandes', status: 'Ex-Petiano', descricao: ''},
+        {nome: 'Murilo', sobrenome: 'Gabriel Leal Vieira', status: 'Petiano', descricao: ''},
+        {nome: 'Olavo', sobrenome: 'Caetano Inácio', status: 'Petiano', descricao: ''},
         {nome: 'Rafael', sobrenome: 'Albergaria Barbosa Segnorini', status: 'Ex-Petiano', descricao: ''},
         {nome: 'Samuel', sobrenome: 'Alves Tavares', status: 'Ex-petiano', descricao: ''},*/
     ];
